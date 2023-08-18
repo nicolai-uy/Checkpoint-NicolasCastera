@@ -1,0 +1,28 @@
+  264  git init
+  265  git remote add origin https://github.com/nicolai-uy/Checkpoint-NicolasCastera.git
+  266  touch main.js index.html
+  267  git add .
+  268  git commit -m "commit 1 de NicolasCastera"
+  269  git branch feature
+  270  git checkout feature
+  271  mkdir Hardware
+  272  mkdir Software
+  273  mkdir SeguridadInformatica
+  274  cd Hardware/
+  275  touch resumen.txt
+  276  cd ..
+  277  cd Software/
+  278  touch resumen.txt
+  279  cd ..
+  280  cd SeguridadInformatica/
+  281  touch resumen.txt
+  282  cd ..
+  283  git add .
+  284  git commit -m "commit 2 de NicolasCastera"
+  285  git push origin feature
+  286  git checkout main
+  287  mv main.js resumenHardware.txt
+  288  mv index.html resumenSoftware.txt
+  289  nano resumenSoftware.txt 
+  290  nano resumenHardware.txt 
+  291  history 28 > comandos.txt
